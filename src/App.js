@@ -5,7 +5,6 @@ import {BrowserRouter as Router , Switch , Route} from 'react-router-dom'
 
 //import all pages
 import Notice from './pages/Notice';
-import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Feedback from './pages/Feedback';
 import Gallery from './pages/Gallery';
@@ -31,7 +30,7 @@ function App() {
     </nav>
         <Switch>
           <Route exact path="/">
-          <Home/>
+          <Student/>
           </Route>
           <Route exact path="/notice">
             <Notice/>
